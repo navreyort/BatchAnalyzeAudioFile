@@ -6,7 +6,7 @@ Install nodejs and npm if you do not have them yet. Then run `npm install` at th
 
 ## Sound file
 
-Currently only supports wave file. The file extension specifically needs to be `.wav`. Place all sound files you'd like to analyze in a single directory. Change the directory name in dev/index.js. The program will spit out analysis result in `analyze.json` file. The analysis result is in an alphabetical order of the sound files.
+Currently, this project only supports wave file format. The file extension specifically needs to be `.wav`. Place all sound files you'd like to analyze in a single directory. Change the directory name in dev/index.js. The program will spit out an analysis result in `analyze.json` file within the same directory. The analysis result is in an alphabetical order of the sound files.
 
 ## Run
 Test the app using:
